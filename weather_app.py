@@ -1,3 +1,5 @@
+
+
 import flet as ft
 import requests
 from decouple import config
@@ -39,9 +41,7 @@ def main(page):
     ]))
 
 #  Rodar aplicação Desktop
-
 ft.app(target=main)
 
 # Rodar aplicação Web
-
 # ft.app(target=main, view=ft.AppView.WEB_BROWSER)
